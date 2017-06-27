@@ -1,0 +1,94 @@
+#myCarousel {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px solid black;
+}
+#menu {
+    height: 65px;
+
+    border: 3px solid black;
+
+
+}
+
+#btnindex {
+    margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+
+}
+#btnanal {
+ margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+}
+#btninstrums {
+ margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+}
+#btneletras {
+ margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+}
+#btninfo {
+ margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+}
+#btnquim {
+ margin-top: 10px;
+    align-content: left;
+    font-size: 20px;
+    margin-right: 65%;
+}
+#btnlogin {
+    margin-top: 10px;
+    align-content: right;
+    font-size: 20px;
+}
+
+.container1 {
+    margin-top: 2%;
+    align-content: center;
+}
+.card {
+    border: 3px solid black;
+    height: 250px;
+    background-color: white;
+
+}
+.row {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.container2 {
+    margin-top: 2%;
+    align-content: center;
+    background-color: #91B4B9; 
+}
+.container3 {
+    margin-top: 2%;
+    align-content: center;
+    background-color: #F0D2CD;
+}
+.container4 {
+    margin-top: 2%;
+    align-content: center;
+    background-color: #BBC1BD; 
+}
+.container5 {
+    margin-top: 2%;
+    align-content: center;
+    background-color: #A5B7B1;
+}
+.container6 {
+    margin-top: 2%;
+    align-content: center;
+    background-color: #D6B2B0;
+}
