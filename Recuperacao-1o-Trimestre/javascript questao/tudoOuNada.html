@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var mat = [
+	[0, 0, 0, 0],
+	[0, 0, 0, 0],
+	[0, 0, 0, 0],
+	[0, 0, 0, 0]
+];
+
+var A = function(a,b){
+	return a+b; 
+};
+
+var B = function(a,b){
+	return a*b; 
+};
+
+var C = function(a,b){
+	return i == j ? 1 : 0;
+};
+
+var D = function(a,b){
+	return i^2/(j+1);
+};
+
+var E = function(a,b){
+	return i > j ? 1 : (i < j ? 5 : 0); 
+};
+
+function makeMat(arg) {
+	for(i=0;i<4;i++){
+    	for(j=0;j<4;j++){
+        	mat[i][j] = arg(i,j);
+            document.write(arg(i,j) + " ");
+        }
+        document.write("<br>");
+    }
+}
+
+function compara() {
+	if (document.getElementById('opA').checked) {
+    	makeMat(A);
+    }
+    if (document.getElementById('opB').checked) {
+    	makeMat(B);
+    }
+    if (document.getElementById('opC').checked) {
+    	makeMat(C);
+    }
+    if (document.getElementById('opD').checked) {
+    	makeMat(D);
+    }
+    if (document.getElementById('opE').checked) {
+    	makeMat(E);
+    }
+}
+
+</script>
+
+  <input type="radio" name="func" value="0" id="opA" checked> Opcao A <br>
+  <input type="radio" name="func" value="1" id="opB"> Opcao B <br>
+  <input type="radio" name="func" value="2" id="opC"> Opcao C <br>
+  <input type="radio" name="func" value="3" id="opD"> Opcao D <br>
+  <input type="radio" name="func" value="4" id="opE"> Opcao E<br>
+<button onclick="compara()">Clique aqui</button>
+
+
+</body>
+</html>
