@@ -82,6 +82,7 @@ h3, h4 {
 #Exp{
   border: solid black 1px;
   border-radius: 25px;
+  box-shadow: 3px 3px 3px black;
   height: 35%;
   margin-bottom: 1%;
   background-color: #F2D8D5;
@@ -104,6 +105,7 @@ h3, h4 {
   background-size: cover;
   background-position: fixed;
   color: black;
+  box-shadow: 3px 3px 3px black;
   border: solid black 1px;
   border-radius: 25px;
   height: 90%;
@@ -116,6 +118,7 @@ h3, h4 {
   height: 56%;
   margin-right: 1.75%;
   background-color: #F2D8D5;
+  box-shadow: 3px 3px 3px black;
 }
 
 #CT{
@@ -124,6 +127,7 @@ h3, h4 {
   height: 56%;
   margin-left: 1.75%;
   background-color: #F2D8D5;
+  box-shadow: 3px 3px 3px black;
 }
 
 #ProfilePhoto{
@@ -400,6 +404,7 @@ a .fab {
 #Education{
   height: 31.4%;
   margin-bottom: 1%;
+  margin-left: 0%;
 }
 
 #CT{
