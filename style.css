@@ -109,18 +109,19 @@ h1, h2, h3, h4 {
 }
 
 #leftRow{
-  height: 194.5%;
+  height: 112%;
   background-color: var(--color4);
   box-shadow: 5px 5px 10px black;
   border: solid black 1px;
   border-radius: 10px;
   min-width: 190px;
+  min-height:1141px;
 }
 
 #experience{
   border: solid black 1px;
   border-radius: 10px;
-  height: 55%;
+  height: 54%;
   margin-bottom: 1%;
   background-color: var(--color5);
   font-size:medium;
@@ -131,7 +132,7 @@ h1, h2, h3, h4 {
   border: solid black 1px;
   border-radius: 10px;
   height: 40%;
-  margin-right: 1.75%;
+  margin-right: 1.5%;
   background-color: var(--color5);
 }
 
@@ -139,8 +140,9 @@ h1, h2, h3, h4 {
   border: solid black 1px;
   border-radius: 10px;
   height: 40%;
-  margin-left: 1.75%;
+  margin-left: 1.5%;
   background-color: var(--color5);
+  display:inline-block; 
 }
 
 #footerBox {
@@ -148,10 +150,11 @@ h1, h2, h3, h4 {
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
   background-color: var(--color5);
-  height: 23%;
+  height: fit-content;
   float: right;
   margin-left: 1%;
   margin-top: 1%;
+  min-height: 165px;
 }
 
 #footer{
@@ -161,7 +164,7 @@ h1, h2, h3, h4 {
   color: black;
   border: solid black 1px;
   border-radius: 10px;
-  height: 87%;
+  height: fit-content;
   background-color: var(--color5);
 }
 
@@ -169,8 +172,9 @@ h1, h2, h3, h4 {
   float: right;
   box-shadow: 3px 3px 10px black;
   border-radius: 10px;
-  height: 165%;
+  height: 100%;
   background-color: var(--color5);
+  min-height: 930px;
 }
 
 :not(div, p, h1, h2, h3, h4, ul, i, a, li){
@@ -296,33 +300,33 @@ html, body { height: 100%; }.container {
 }
 
 #bodyBox{
-  height: 227%;
+  height: 172%;
 }
 
 #leftRow{
-  height: 227%;
+  height: 172%;
+  min-height: 1413px;
 }
 
 #experience{
-  height: 70%;
+  height: fit-content;
   line-height: 3.9vh;
   font-size: 80%;
-  max-height: 720px;
 }
 
 #education{
-  height: 25%;
+  height: fit-content;
   margin-bottom: 1%;
 }
 
 #awards{
-  height: 19.5%;
+  height: fit-content;
   margin-left: 0%;
   margin-bottom: 1%;
 }
 
 #footerBox{
-  height: 25%;
+  height: fit-content;
 }
 
 }
@@ -402,16 +406,21 @@ html, body { height: 100%; }.container {
     width: 98%;
 
   }
-
-  #leftRow{
-    height:150%;
+  #bodyBox{
+    height: fit-content;
   }
 
-  #experience{
-    height:50%;
+  #leftRow{
+    height: fit-content;
+    min-height: 0px;
+    margin-bottom: 2%;
   }
 
   #awards{
-    height:21%;
+    height: fit-content;
+  }
+
+  #footerBox{
+    min-height: 0px;
   }
 }
