@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+  background-color: #F2B4AE;
+}
+
+#Footer a{
+  color: #D9899E;
+  padding: 2%;
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-size: cover;
+  background-position: fixed;
+  color: #F2D8D5;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+
+ 
+ .img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ 
+
+
+#Exp{
+  border: solid black 1px;
+  border-radius: 25px;
+  height: 35%;
+  margin-bottom: 1%;
+  background-color: #F2D8D5;
+  line-height: 2vh;
+}
+
+#FooterBox {
+  border: solid black 1px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px black;
+  background-color: #F2ACB9;
+  height: 30%;
+  float: right;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#Footer{
+  text-align: center;
+  background-size: cover;
+  background-position: fixed;
+  color: black;
+  border: solid black 1px;
+  border-radius: 25px;
+  height: 90%;
+  background-color: #F2D8D5;
+}
+
+#Education{
+  border: solid black 1px;
+  border-radius: 25px;
+  height: 56%;
+  margin-right: 1.75%;
+  background-color: #F2D8D5;
+}
+
+#CT{
+  border: solid black 1px;
+  border-radius: 25px;
+  height: 56%;
+  margin-left: 1.75%;
+  background-color: #F2D8D5;
+}
+
+#ProfilePhoto{
+  display: flex;
+  justify-content: center;
+  filter: grayscale(80%);
+}
+
+#Profile{
+    padding: 2%;
+}
+
+.profile:hover{
+    background-color: #D9899E;
+}
+
+#MyPhoto{
+  border-radius: 50%;
+  max-width: 65%;
+  border: 3px solid #555;
+}
+
+#ColunaEsq{
+  height: 100%;
+  background-color: #F2D8D5;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px black;
+  border: solid black 1px;
+  border-radius: 25px;
+}
+
+.card{
+  padding: 1%;
+  width: 90%;
+  box-shadow: 0 0 5px 0px #e2e2e2;
+  position: relative;
+  height: 8%;
+  font-size: small;
+}
+
+.card:after,
+.card:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .3s ease-in-out;
+}
+
+.card:before{
+  border-left: 1px solid #F2ACB9;
+  border-right: 1px solid #F2ACB9;
+  transform: scaleY(0);
+}
+
+.card::after{
+  border-top: 1px solid #D9899E;
+  border-bottom: 1px solid #D9899E;
+  transform: scaleX(0);
+}
+
+.card:hover:before {
+  transform: scaleY(1);
+}
+
+.card:hover:after {
+  transform: scaleX(1);
+}
+
+html, body { height: 100%; }.container {
+  padding: 2px;
+  max-width: 1400px;
+  max-height: 1050px;
+  width: 98%;
+  min-width: 350px;
+  height: 98%;
+  margin:auto;
+  border-radius:1%;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, 
+.col9, .col10, .col11, .col13, .col14, .col15, .col16 {
+  float: left;
+  padding: 1%;
+}
+
+.col1{
+  width: 4.25%;
+}
+
+.col2{
+  width: 10.5%;
+  padding: 1%;
+}
+
+.col3{
+  width: 16.25%;
+}
+
+.col4{
+  width: 22%;
+}
+
+.col5{
+  width: 29.25%;
+}
+
+.col6{
+  width: 35.5%;
+}
+
+.col7{
+  width: 41.75%;
+}
+
+.col8{
+  width: 46%;
+}
+
+.col9{
+  width: 54.25%;
+}
+
+.col10{
+  width: 60.5%;
+}
+
+.col11{
+  width: 66.75%;
+}
+
+.col12{
+  width: 72%;
+  height: 100%;
+}
+
+.col13{
+  width: 77.75%;
+  height: 100%;
+}
+
+.col14{
+  width: 85.5%;
+}
+
+.col15{
+  width: 91.75%;
+}
+
+.col16{
+  width: 98%;
+  
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 200%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
+.InfosAboutMe {
+  float: lefet;
+}
+
+#CardInfo {
+
+  float: right;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 25px;
+  height: 65%;
+  background-color: #F2ACB9;
+
+}
+
+@media screen and (max-width: 959px) {
+ 
+  .col1_md .col2_md .col3_md .col4_md .col5_md .col6_md .col7_md .col8_md 
+.col9_md .col10_md, .col11_md, .col12_md, .col13_md, .col14_md, .col15_md, .col16_md {
+  float: left;
+  padding: 1%;
+}
+
+.col1_md{
+  width: 4.25%;
+}
+
+.col2_md{
+  width: 10.5%;
+}
+
+.col3_md{
+
+  width: 16.75%;
+}
+
+.col4_md{
+  width: 22%;
+}
+
+.col5_md{
+  width: 29.25%;
+}
+
+.col6_md{
+  width: 35.5%;
+}
+
+.col7_md{
+  width: 41.75%;
+}
+
+.col8_md{
+  width: 46%;
+}
+
+.col9_md{
+  width: 54.25%;
+}
+
+.col10_md{
+  width: 60.5%;
+}
+
+.col11_md{
+  width: 66.75%;
+}
+
+.col12_md{
+  width: 72%;
+  height: 100%;
+}
+
+.col13_md{
+  width: 78.25%;
+}
+
+.col14_md{
+  width: 85.5%;
+}
+
+.col15_md{
+  width: 91.75%;
+}
+
+.col16_md{
+  width: 98%;
+  
+}
+
+#CardInfo{
+  height: 78%;
+}
+
+#ColunaEsq{
+  height: 78%;
+}
+
+#Exp{
+  height: 31.4%;
+  line-height: 1.5vh;
+}
+
+#Education{
+  height: 31.4%;
+  margin-bottom: 1%;
+}
+
+#CT{
+  height: 31.6%;
+  margin-left: 0%;
+  margin-bottom: 1%;
+}
+
+#FooterBox{
+  height: 20%;
+}
+
+}
+
+
+@media screen and (max-width: 647px) {
+
+    *{
+        font-size: 98%;
+    }
+
+  .col1_sm .col2_sm .col3_sm .col4_sm .col5_sm .col6_sm .col7_sm .col8_sm 
+  .col9_sm .col10_sm, .col11_sm, .col12_sm, .col13_sm, .col14_sm, .col15_sm, .col16_sm {
+    float: left;
+    padding: 1%;
+  }
+  
+  .col1_sm{
+    width: 4.25%;
+  }
+  
+  .col2_sm{
+    width: 10.5%;
+  }
+  
+  .col3_sm{
+  
+    width: 16.75%;
+  }
+  
+  .col4_sm{
+    width: 22%;
+  }
+  
+  .col5_sm{
+    width: 28.25%;
+  }
+  
+  .col6_sm{
+    width: 35.5%;
+  }
+  
+  .col7_sm{
+    width: 41.75%;
+  }
+  
+  .col8_sm{
+    width: 46%;
+  }
+  
+  .col9_sm{
+    width: 54.25%;
+  }
+  
+  .col10_sm{
+    width: 60.5%;
+  }
+  
+  .col11_sm{
+    width: 65.75%;
+  }
+  
+  .col12_sm{
+    width: 72%;
+    height: 100%;
+  }
+  
+  .col13_sm{
+    width: 78.25%;
+  }
+  
+  .col14_sm{
+    width: 85.5%;
+  }
+  
+  .col15_sm{
+    width: 91.75%;
+  }
+  
+  .col16_sm{
+    width: 98%;
+    
+  }
+
+  .card{
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+  }
+
+  #Exp{
+    line-height: 1.5vh;
+  }
+
+  #MyPhoto{
+      max-width: 30%;
+  }
+
+
+}
