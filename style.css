@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap%27');
+img {
+    max-width: 100%;
+    width: 90%;
+    border-radius: 10px;
+    filter: contrast(120%);
+    margin-top: 2%;
+}
+
+.estilo {
+    
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.titulos {
+    font-family: 'Teko', sans-serif;
+}
+.estilo-premios {
+    margin-left: 0%;
+    margin-top: 2%;
+    background-color: #03B3F2;
+    margin-right: 0.25%;
+    border-radius: 5px;
+}
+.col-2 {
+    background-color: #03C2F2;
+    border-radius: 8px;
+}
+
+.discord {
+    max-width: 100%;
+    width: 17%;
+   float: left;
+   margin-right: 10%;
+   
+}
+
+
+.git {
+    max-width: 100%;
+    width: 17%;
+    float: left;
+   margin-right: 10%;
+   margin-left: 20%;
+}
+
+footer {
+    margin-top: 5%;
+    background-color: #03D6F2;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.conteiner {
+    margin-top: 1%;
+    overflow: hidden;
+}
+body {
+    
+    background: #039EF2;
+}
+p, li{
+    font-family: 'Roboto', sans-serif;
+ }
+.alinha{
+    margin-left: -0.5%;
+}
+main > p {
+    margin-left: 1%;
+}
+main > .h22 {
+    margin-left: 1%;
+} 
+
+
