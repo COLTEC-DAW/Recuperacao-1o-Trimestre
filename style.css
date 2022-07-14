@@ -17,7 +17,7 @@ img{
 
 a{
     text-decoration: none;
-    color: #cc0000;
+    color:tomato;
 }
 
 i{
@@ -26,8 +26,7 @@ i{
 
 footer{
     background-color: bisque;
-    margin: 0;
-    padding: 0;
+    margin-top: 10%;
 }
 
 /* Estilizaçãpo cards*/
@@ -49,7 +48,7 @@ footer{
 }
 
 .card-subtitle{
-    color: #9da3c8;
+    color: seashell;
 }
 
 .card-text{
@@ -76,3 +75,35 @@ footer{
  .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
     color: white;
  }
+
+ .accordion-button{
+     background-color: black;
+     color: white;
+ }
+ .accordion-button::after{
+    filter: brightness(0%) invert(100%);
+}
+ .accordion-button:not(.collapsed){
+    background-color: #17252e;
+    color: white;
+}
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+}
+ #collapseOne{
+     background-color: #17252e;
+ }
+ @keyframes premiosCards{
+    0% {-webkit-transform: scale(1.0);}
+    100% {-webkit-transform: scale(1.03);}
+}
+#premios:hover{
+    animation: premiosCards 1s;
+    animation-fill-mode: forwards;
+}
+
+#email{
+    text-decoration: underline;
+    text-decoration-color: #4688fa;
+    color: #0645AD;
+}
