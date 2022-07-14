@@ -1,3 +1,4 @@
+    /* */
 html, body{
     /*background-color: #ff8c00;*/
     background-color: #2e2e2e;
@@ -5,25 +6,6 @@ html, body{
     margin: 0;
     padding: 0;
 }
-
-.card{
-    margin-top: 10px;
-    background-color: black;
-    border-radius: 2rem;
-    max-width: 100%;
-}
-.card-body{
- background-color: black;
- border-radius: 2rem;
- max-width: 100%;
-}
-.card-title{
-    color: #9bbc56;
-}
-.card-text{
-    color: #00ff00;
-}
-
 img{
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +13,47 @@ img{
     text-align: center;
     max-width: 75%;
     filter: brightness(150%);
+}
+
+a{
+    text-decoration: none;
+    color: #cc0000;
+}
+
+i{
+    font-size: 200%;
+}
+
+footer{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizaçãpo cards*/
+.card{
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 2rem;
+    max-width: 100%;
+}
+
+.card-body{
+ background-color: black;
+ border-radius: 2rem;
+ max-width: 100%;
+}
+
+.card-title{
+    color: #9bbc56;
+}
+
+.card-subtitle{
+    color: #9da3c8;
+}
+
+.card-text{
+    color: #00ff00;
 }
 
 .d-block{
@@ -42,12 +65,14 @@ img{
     background-color: black;
     border-color: black;
 }
-
-footer{
-    background-color: bisque;
-    margin: 0;
-    padding: 0;
+/* Estilização Tabaela*/
+.table{
+    color: white;
 }
-i{
-    font-size: 200%;
-}
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: #55b079;
+    color: black;
+ }
+ .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    color: white;
+ }
