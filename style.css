@@ -1,8 +1,11 @@
-    /* */
+
 html, body{
-    /*background-color: #ff8c00;*/
     background-color: #2e2e2e;
     width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid, .col-2, .col-3{
     margin: 0;
     padding: 0;
 }
@@ -21,7 +24,11 @@ a{
 }
 
 i{
-    font-size: 200%;
+    font-size: 150%;
+}
+i:hover{
+    animation: growIcons 1s;
+    animation-fill-mode: forwards;
 }
 
 footer{
@@ -44,7 +51,7 @@ footer{
 }
 
 .card-title{
-    color: #9bbc56;
+    color: #0d850d;
 }
 
 .card-subtitle{
@@ -54,10 +61,30 @@ footer{
 .card-text{
     color: #00ff00;
 }
-
 .d-block{
     padding: 0;
     margin: 0;
+}
+
+#cardResumo, #cardResumo > p{
+    background-color:darkred;
+}
+#formacaoTitulo{
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.subcard, .subcard > .card-body{
+    background-color: gray;
+}
+.subcard > .card-body > .card-title{
+    color: gold;
+}
+.subcard > .card-body > .card-subtitle{
+    color: gold;
+}
+.subcard > .card-body > .card-text{
+    color: gold;
 }
 
 .img-thumbnail{
@@ -93,12 +120,16 @@ footer{
  #collapseOne{
      background-color: #17252e;
  }
- @keyframes premiosCards{
+ @keyframes growCard{
     0% {-webkit-transform: scale(1.0);}
     100% {-webkit-transform: scale(1.03);}
 }
-#premios:hover{
-    animation: premiosCards 1s;
+@keyframes growIcons{
+    0% {-webkit-transform: scale(1.0);}
+    100% {-webkit-transform: scale(1.3);}
+}
+.subcard:hover{
+    animation: growCard 1s;
     animation-fill-mode: forwards;
 }
 
