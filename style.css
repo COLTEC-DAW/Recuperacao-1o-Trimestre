@@ -5,10 +5,11 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.container-fluid, .col-2, .col-3{
-    margin: 0;
-    padding: 0;
+
+p{
+    text-align: justify;
 }
+
 img{
     margin-left: auto;
     margin-right: auto;
@@ -26,9 +27,15 @@ a{
 i{
     font-size: 150%;
 }
+
 i:hover{
     animation: growIcons 1s;
     animation-fill-mode: forwards;
+}
+
+.container-fluid, .col-2, .col-3{
+    margin: 0;
+    padding: 0;
 }
 
 footer{
@@ -67,7 +74,17 @@ footer{
 }
 
 #cardResumo, #cardResumo > p{
-    background-color:darkred;
+    background-color:#01ff80;
+    color: black;
+}
+#cardResumo > h5{
+    color: purple;
+} 
+#cardResumo > p> a{
+    color: #dd1f58;
+}
+#cardResumo > p{
+    padding-left: 1%;
 }
 #formacaoTitulo{
     color: #00ff00;
