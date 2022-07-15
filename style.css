@@ -108,14 +108,14 @@ h1, h2, h3, h4 {
   filter: grayscale(100%);
 }
 
-#leftRow{
-  height: 112%;
+#resume{
+  height: 121.3%;
   background-color: var(--color4);
   box-shadow: 5px 5px 10px black;
   border: solid black 1px;
   border-radius: 10px;
   min-width: 190px;
-  min-height:1141px;
+  min-height: 1141px;
 }
 
 #experience{
@@ -189,7 +189,7 @@ a:hover{
   color: blue;
 }
 
-.course{
+.institute{
   font-weight: bold;
 }
 
@@ -205,7 +205,7 @@ html, body { height: 100%; }.container {
   width: 98%;
   height: 98%;
   margin:auto;
-  border-radius:1%;
+  border-radius: 1%;
 }
 
 .card{
@@ -303,7 +303,7 @@ html, body { height: 100%; }.container {
   height: 172%;
 }
 
-#leftRow{
+#resume{
   height: 172%;
   min-height: 1413px;
 }
@@ -410,7 +410,7 @@ html, body { height: 100%; }.container {
     height: fit-content;
   }
 
-  #leftRow{
+  #resume{
     height: fit-content;
     min-height: 0px;
     margin-bottom: 2%;
